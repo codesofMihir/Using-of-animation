@@ -1,0 +1,197 @@
+@media (max-width:2560px) {
+    .a {
+        padding: 150px 0px;
+    }
+
+    .a .box {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        background: rgb(255, 255, 255);
+        position: relative;
+        z-index: 9;
+    animation-name: saa;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+
+    @keyframes saa{
+        0%{
+            background:radial-gradient(#ff000096, #ffffff); 
+            
+        }
+        50%{
+            
+            background:radial-gradient(#ffffff, #ff000096); 
+            
+        }
+        100%{
+            background:radial-gradient(#ff000096, #ffffff); 
+            
+
+        }
+    }
+
+
+
+.b .v1{
+    margin-top: -230px;
+    margin-left: -150px;
+    position: absolute;
+}
+.b .v1 li{
+    width: 80%;
+}
+.b .v2 li{
+    width: 80%;
+}
+.b .v2{
+    margin-left: -150px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+
+
+    .b hr {
+        border: 1px solid #000;
+        width: 50%;
+    }
+
+    .b .hr5,
+    .hr7 {
+        margin-top: 200px;
+    }
+
+    .b .hr1 {}
+
+    .b .hr2 {
+        margin-left: 320px;
+        margin-top: 30px;
+        transform: rotate(45deg);
+        width: 20%;
+    }
+
+    .b .hr6 {
+        margin-left: 318px;
+        margin-top: -52px;
+        transform: rotate(130deg);
+        width: 20%;
+    }
+
+    .b .hr8 {
+        margin-left: 35px;
+        margin-top: -50px;
+        transform: rotate(227deg);
+        width: 20%;
+    }
+
+    .b {
+        position: absolute;
+        width: 100%;
+        margin-top: -440px;
+    }
+
+    .a img {
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 60px;
+        animation-name: sa;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes sa{
+        0%{
+           transform: scale(1); 
+        }
+        50%{
+            transform: scale(1.1); 
+            
+        }
+        100%{
+            transform: scale(1); 
+
+        }
+    }
+
+    .b .hr4 {
+        margin-left: 30px;
+        margin-top: 28px;
+        transform: rotate(320deg);
+        width: 20%;
+
+    }
+
+    /* .m-container{
+    position: relative;
+}
+
+.circle{
+    height:350px;
+    width:350px;
+    align-items: center;
+    border-radius:50%;
+    background:url("/img/ice.png");
+    border:5px solid black;
+}
+
+.line0{
+    position:absolute;
+    width:220px;
+    height:2px;
+    background:black;
+    border:none;
+    top:80px;     
+    left:330px; 
+    transform:rotate(-30deg);    
+}
+.line1{
+    position:absolute;
+    width:230px;
+    height:3px;
+    background:black;
+    border:none;
+    top: 310px;
+    left:300px;
+    transform:rotate(30deg)
+}
+.line2{
+    position:absolute;
+    width:220px;
+    height:2px;
+    background:black;
+    border:none;
+    margin-left:510px;
+    margin-top:30px;
+}
+.line3{
+    position:absolute;
+    width:200px;
+    height:2px;
+    background:black;
+    border:none;
+    margin-top:-310px;
+    left:540px;
+
+} */
+}
+
+@media (max-width:1920px) {}
+
+@media (max-width:1440px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:425px) {}
+
+@media (max-width:375px) {}
+
+@media (max-width:320px) {}
