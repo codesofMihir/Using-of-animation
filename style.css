@@ -47,6 +47,7 @@
 }
 .b .v2 li{
     width: 80%;
+
 }
 .b .v2{
     margin-left: -150px;
@@ -97,8 +98,10 @@
 
     .a img {
         width: 70%;
-        margin-top: 50px;
-        margin-left: 60px;
+        border-radius: 50%;
+        margin-left: -10px;
+        margin-top: 53px;
+        margin-left: 53px;
         animation-name: sa;
         animation-timing-function: linear;
         animation-duration: 2s;
