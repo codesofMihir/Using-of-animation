@@ -1,3 +1,6 @@
+body{
+    background: radial-gradient(#ffffff,  #000);
+}
 @media (max-width:2560px) {
     .a {
         padding: 150px 0px;
