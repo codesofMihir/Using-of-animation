@@ -3,68 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ice Cream Bliss 🍦</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="m-container">
-    <div class="circle"></div>
-    <hr class="line0"><hr class="line1"><hr class="line2"><hr class="line3"></div> -->
 
+    <!-- Decorative background blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
 
+    <!-- Floating sprinkles / confetti -->
+    <div class="sprinkles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
 
+    <!-- ============ HERO SECTION ============ -->
+    <section class="a">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <span class="badge-pill-custom">🍨 Fresh &amp; Creamy</span>
+                    <h1 class="hero-title">Sweet Scoops of <span class="gradient-text">Joy</span></h1>
+                    <p class="hero-subtitle">
+                        Hand-crafted ice creams made with love, fresh fruits &amp; pure happiness — one scoop at a time!
+                    </p>
+                </div>
+            </div>
 
-        <section class="a">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="box">
-                            <img src="img/sds.png" width="100%">
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="img/sds.png" width="100%" alt="Delicious ice cream">
+                        <div class="shine"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- <section class="b">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-5">
-                        <hr class="hr1">
-                        <hr class="hr2">
-                        <hr class="hr5">
-                        <hr class="hr6">
-                        <div class="v1">
-                            <h3>Vanila Ingridients</h3>
-                            <ul>
-                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sunt eum maiores autem rem quam omnis quasi accusantium tempore nihil.</li>
-                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sunt eum maiores autem rem quam omnis quasi accusantium tempore nihil.</li>
-                                
-                            </ul>
+        </div>
+    </section>
+
+    <!-- ============ INGREDIENTS SECTION ============ -->
+    <section class="b">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="card-ingredient vanilla">
+                        <div class="card-head">
+                            <div class="emoji">🍦</div>
+                            <h3>Vanilla Ingredients</h3>
                         </div>
-                        <div class="v2">
-                            <h3>Mango Ingridients</h3>
-                            <ul>
-                                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sunt eum maiores autem rem quam omnis quasi accusantium tempore nihil.</li>
-                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sunt eum maiores autem rem quam omnis quasi accusantium tempore nihil.</li>
-                            </ul>
+                        <ul>
+                            <li>Fresh full-cream milk &amp; rich cream churned to perfection.</li>
+                            <li>Madagascar vanilla beans for an aromatic, classic taste.</li>
+                            <li>A touch of organic cane sugar &amp; a pinch of sea salt.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card-ingredient mango">
+                        <div class="card-head">
+                            <div class="emoji">🥭</div>
+                            <h3>Mango Ingredients</h3>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        
-                    </div>
-                    <div class="col-md-5">
-                        <hr class="hr3">
-                        <hr class="hr4">
-                        <hr class="hr7">
-                        <hr class="hr8">
+                        <ul>
+                            <li>Sun-ripened Alphonso mangoes, hand-picked at peak sweetness.</li>
+                            <li>Pureed fresh daily with a hint of cardamom.</li>
+                            <li>Creamy base with no artificial colors or flavors.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section> -->
 
-    
+            <!-- Divider + birthday image -->
+            <div class="row justify-content-center birthday-row">
+                <div class="col-md-4 text-center">
+                    <div class="hbd-img">
+                        <img src="img/hbd.png" width="100%" alt="Happy Birthday">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p class="footer-note">Made with <span class="heart">♥</span> &amp; lots of sprinkles 🎉</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
+
