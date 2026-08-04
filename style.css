@@ -207,7 +207,8 @@ body {
 }
 
 .a .box img {
-    width: 72%;
+    margin-left: 46px;
+    width: 76%;
     margin-top: 48px;
     animation: sa 2.4s ease-in-out infinite;
     position: relative;
