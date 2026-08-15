@@ -235,7 +235,6 @@ body {
     55%, 100% { left: 140%; }
 }
 
-/* ---------- Ingredients section ---------- */
 .b {
     position: relative;
     z-index: 2;
@@ -364,9 +363,6 @@ body {
     60% { transform: scale(1.2); }
 }
 
-/* =========================================================
-   RESPONSIVE BREAKPOINTS
-   ========================================================= */
 
 @media (max-width: 1440px) {
     .hero-title { font-size: 3.5rem; }
