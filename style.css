@@ -7,7 +7,7 @@ body {
     font-family: 'Baloo 2', cursive;
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #ffd3e0 0%, #fff3e0 35%, #d4f7e8 70%, #c9e7ff 100%);
+    background: linear-gradient(134deg, #ffd3e0 0%, #fff3e0 34%, #d4f7e8 70%, #c9e7ff 100%);
     background-attachment: fixed;
 }
 
