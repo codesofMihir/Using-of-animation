@@ -213,8 +213,6 @@ body {
     0%, 100% { transform: scale(1) rotate(-2deg); }
     50% { transform: scale(1.12) rotate(2deg); }
 }
-
-/* Glass shine sweep */
 .a .shine {
     position: absolute;
     top: -60%;
