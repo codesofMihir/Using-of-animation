@@ -13,7 +13,7 @@ body {
 
 .blob {
     position: fixed;
-    border-radius: 50%;
+    border-radius: 60%;
     filter: blur(68px);
     opacity: 0.55;
     z-index: 0;
