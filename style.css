@@ -335,8 +335,6 @@ body {
 .hbd-img:hover {
     transform: scale(1.05) rotate(1deg);
 }
-
-/* ---------- Footer note ---------- */
 .footer-note {
     margin: 20px 0 10px;
     font-size: 1.2rem;
