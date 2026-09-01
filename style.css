@@ -315,8 +315,6 @@ body {
 .card-ingredient.mango li::before {
     content: '🥭';
 }
-
-/* ---------- Birthday image ---------- */
 .birthday-row {
     margin-top: 30px;
 }
