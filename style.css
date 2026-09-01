@@ -16,7 +16,7 @@ body {
     border-radius: 60%;
     filter: blur(68px);
     opacity: 0.55;
-    z-index: 1;
+    z-index: 0;
     pointer-events: none;
     animation: blobFloat 14s ease-in-out infinite alternate;
 }
