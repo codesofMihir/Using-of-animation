@@ -70,10 +70,10 @@ body {
 .sprinkles span {
     position: absolute;
     top: -10%;
-    width: 8px;
-    height: 8px;
+    width:8px;
+    height:8px;
     border-radius: 3px;
-    opacity: 0.75;
+    opacity:0.75;
     animation: sprinkleFall linear infinite;
 }
 
