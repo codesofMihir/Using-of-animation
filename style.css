@@ -28,8 +28,9 @@ body {
     top: -120px;
     left: -120px;
 }
-
- style="justify-content: center; align-items: center;"
+.p{
+justify-content: center; align-items: center;
+}
 .blob-2 {
     width: 380px;
     height: 380px;
